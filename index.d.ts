@@ -1,4 +1,4 @@
-declare module '@fridgerator/pynode' {
+declare module '@fukukoussjouhou/pynode' {
   /**
    * Fixes dyanmic linking issue in python
    * @param dlFile Python shared library file name

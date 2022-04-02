@@ -1,6 +1,6 @@
 {
   "name": "@fukukoussjouhou/pynode",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Node <-> Python interopability",
   "main": "build/Release/PyNode",
   "author": "Fukukoussjouhou <umekoujouhouhan@gmail.com>",
