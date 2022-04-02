@@ -1,12 +1,12 @@
 # PyNode
 
-[![Build Status](https://travis-ci.org/fridgerator/PyNode.svg?branch=master)](https://travis-ci.org/fridgerator/PyNode)
+[![Build Status](https://travis-ci.org/fukukoussjouhou/PyNode.svg?branch=master)](https://travis-ci.org/fukukoussjouhou/PyNode)
 	
 ### Call python code from node.js
 
 **Node v10 or above is required**
 
-**Tested with python 3.6 - 3.8.**
+**Tested with python 3.6 - 3.10.**
 
 ## Installation
 
@@ -14,8 +14,8 @@
 
 * Make sure `python` in your system `PATH` is the correct one: `python --version`. You may use a virtualenv to do this.
 * Install gyp-next: `git clone https://github.com/nodejs/gyp-next`; `cd gyp-next`; `python setup.py install`
-* `yarn add @fridgerator/pynode` or
-`npm install @fridgerator/pynode`
+* `yarn add @fukukoussjouhou/pynode` or
+`npm install @fukukoussjouhou/pynode`
 * If your default `python` is version 2.7, then you may have to yarn install using additional env variables: `PY_INCLUDE=$(python3.6 build_include.py) PY_LIBS=$(python3.6 build_ldflags.py) yarn`
 
 ## Usage
@@ -31,7 +31,7 @@ def add(a, b):
 in node:
 
 ```javascript
-const pynode = require('@fridgerator/pynode')
+const pynode = require('@fukukoussjouhou/pynode')
 
 // Workaround for linking issue in linux:
 // https://bugs.python.org/issue4434
@@ -108,7 +108,7 @@ class PythonClass(object):
 In Node:
 
 ```javascript
-const pynode = require('@fridgerator/pynode')
+const pynode = require('@fukukoussjouhou/pynode')
 
 pynode.startInterpreter();
 pynode.appendSysPath('./test_files/');
