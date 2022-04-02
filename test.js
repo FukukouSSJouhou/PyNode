@@ -6,7 +6,7 @@ const { promisify } = require('util')
 
 if (process.platform === 'linux') {
   nodePython.dlOpen('libpython3.10.so')
-  nodePython.dlOpen('libpython3.6m.so')
+  nodePython.dlOpen('libpython3.8.so')
 }
 nodePython.startInterpreter()
 nodePython.appendSysPath('./test_files')
