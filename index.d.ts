@@ -60,4 +60,5 @@ declare module '@fridgerator/pynode' {
    * @param statement String statement to be evaluated
    */
   export function eval(statement: string): number;
+  export function pyimport(path:string):any;
 }

@@ -251,7 +251,7 @@ Napi::Object PyNodeInit(Napi::Env env, Napi::Object exports) {
   exports.Set(Napi::String::New(env, "openFile"),
               Napi::Function::New(env, OpenFile));
 
-  exports.Set(Napi::String::New(env, "import"),
+  exports.Set(Napi::String::New(env, "pyimport"),
               Napi::Function::New(env, ImportModule));
 
   exports.Set(Napi::String::New(env, "eval"), Napi::Function::New(env, Eval));

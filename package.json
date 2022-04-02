@@ -1,11 +1,11 @@
 {
-  "name": "@fridgerator/pynode",
+  "name": "@fukukoussjouhou/pynode",
   "version": "0.5.2",
   "description": "Node <-> Python interopability",
   "main": "build/Release/PyNode",
-  "author": "Nick Franken <shnick@gmail.com>",
+  "author": "Fukukoussjouhou <umekoujouhouhan@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/fridgerator/PyNode",
+  "homepage": "https://github.com/fukukoussjouhou/PyNode",
   "keywords": [
     "node.js",
     "python"
