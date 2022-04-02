@@ -1,7 +1,6 @@
 # PyNode
 
-[![Build Status](https://travis-ci.org/fukukoussjouhou/PyNode.svg?branch=master)](https://travis-ci.org/fukukoussjouhou/PyNode)
-	
+[![Build Status](https://github.com/FukukouSSJouhou/PyNode/actions/workflows/test.yml/badge.svg)](https://github.com/FukukouSSJouhou/PyNode/actions/workflows/test.yml)
 ### Call python code from node.js
 
 **Node v10 or above is required**
